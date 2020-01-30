@@ -127,7 +127,7 @@ function check(){
     }
     if (Influenza >= Bronchitis && Influenza >= dengueFever && Influenza >= Gastroenteritis && Influenza >= commonCold && Influenza >=Hepatitis && Influenza >= Measles && Influenza >= Rabies && Influenza >= viralPneumonia ) {
     	virus = "Influenza";
-	explanation = "Influenza, also known as the Flue, is a respriatory viral infection that can be fatal if not treated. It is extremely important to visit medical personnel for this reason. Influenza spreads very easily so wearing masks and avoiding public places can stop further spread.";
+	explanation = "Influenza, also known as the Flu, is a respriatory viral infection that can be fatal if not treated. It is extremely important to visit medical personnel for this reason. Influenza spreads very easily so wearing masks and avoiding public places can stop further spread.";
     }
     if (commonCold >= Bronchitis && commonCold >= dengueFever && commonCold >= Gastroenteritis && commonCold >= Influenza && commonCold >=Hepatitis && commonCold >= Measles && commonCold >= Rabies && commonCold >= viralPneumonia ) {
         virus = "Common Cold";
